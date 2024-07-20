@@ -20,18 +20,23 @@ Instalação do Node
 - Executar o comando: nvm install 16.13.1
 - Para verificar se a versão correta está instalada, execute o comando: `node -v`
 
+
 Instalação do Cypress
 - Dentro do diretório do projeto, abrir o terminal e rodar o comando: `npm install cypress --save-dev`
 - Para verificar se a instalação está correta, execute o cypress com o comando: `npx cypress open`
 
+
 Instalação do faker-js
 - Dentro do diretório do projeto, abrir o terminal e rodar o comando: `npm install --save-dev @faker-js/faker`
+
 
 Instalação do Cucumber
 - Dentro do diretório do projeto, abrir o terminal e rodar o comando: `npm install --save-dev cypress cypress-cucumber-preprocessor`
 
+
 Instalação do Visual Studio Code
 - Entrar na página oficial e seguir os passos de instalação padrão: https://code.visualstudio.com/
+
 
 # Informações para executar a automação
 - Clonar o repositório no diretório local desejado;
