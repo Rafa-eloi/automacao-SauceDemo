@@ -1,4 +1,4 @@
-# automacao-cypress
+# Automacao SauceDemo
 Projeto de automação utilizando o cypress para seleção em QA.
 Neste projeto foram construídos 15 cenários, sendo eles divididos em 4 funcionalidades do sistema.
 - Login: 6 cenários;
