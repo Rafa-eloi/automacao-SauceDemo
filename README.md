@@ -24,7 +24,7 @@ Instalação do Node
 Instalação do Cypress
 - Dentro do diretório do projeto, abrir o terminal e rodar o comando: `npm install cypress --save-dev`
 - Para verificar se a instalação está correta, execute o cypress com o comando: `npx cypress open`
-/n
+
 
 Instalação do faker-js
 - Dentro do diretório do projeto, abrir o terminal e rodar o comando: `npm install --save-dev @faker-js/faker`
