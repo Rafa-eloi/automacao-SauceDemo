@@ -3,7 +3,7 @@ import loginPage from '../../pages/loginPage';
 import cartPage from '../../pages/cartPage';
 import checkoutPage from '../../pages/checkoutPage';
 
-//Bloco de login
+//Bloco responsável pelo login
 Given("Acesso a tela de login", () => {
     loginPage.accessLoginPage();
 });
@@ -20,7 +20,7 @@ Then("Visualizo a tela de produtos", () => {
     loginPage.successLoginValidate();
 });
 
-//Bloco do carrinho
+//Bloco responsável por adicionar produtos ao carrinho carrinho
 When("Cliclo em adicionar produtos ao carrinho", () => {
     cartPage.clickAddCart();
 });
@@ -31,7 +31,7 @@ Then("Vizualizo os produtos no carrinho", () => {
     cartPage.cartItemValidate();
 });
 
-//Bloco de checkout
+//Bloco dos cenários de checkout
 When("Cliclo em Checkout", () => {
     checkoutPage.clickCheckout();
 });

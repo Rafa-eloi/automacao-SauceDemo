@@ -2,7 +2,7 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 import loginPage from '../../pages/loginPage';
 import homePage from '../../pages/homePage';
 
-//Bloco de login
+//Bloco responsável pelo login
 Given("Acesso a tela de login", () => {
     loginPage.accessLoginPage();
 });
@@ -19,6 +19,7 @@ Then("Visualizo a tela de produtos", () => {
     loginPage.successLoginValidate();
 });
 
+//Bloco dos cenários de home
 Then("Visualizo os produtos da home", () => {
     homePage.productHomeValidate();
 });

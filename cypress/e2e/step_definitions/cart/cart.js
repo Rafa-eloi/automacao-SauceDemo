@@ -2,7 +2,7 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 import loginPage from '../../pages/loginPage';
 import cartPage from '../../pages/cartPage';
 
-//Bloco de login
+//Bloco responsável pelo login
 Given("Acesso a tela de login", () => {
     loginPage.accessLoginPage();
 });
@@ -19,7 +19,7 @@ Then("Visualizo a tela de produtos", () => {
     loginPage.successLoginValidate();
 });
 
-//Bloco do carrinho
+//Bloco dos cenários de carrinho
 When("Cliclo em adicionar produtos ao carrinho", () => {
     cartPage.clickAddCart();
 });

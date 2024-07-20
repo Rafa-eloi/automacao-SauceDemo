@@ -7,7 +7,6 @@ When Preencho cooretamente a senha
 When Clico em login
 Then Visualizo a tela de produtos
 
-
 Scenario: Realizar fluxo de compra corretamente e finalizar com sucesso
 When Cliclo em adicionar produtos ao carrinho
 When Clico para ir para o carrinho

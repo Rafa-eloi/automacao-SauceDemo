@@ -23,7 +23,7 @@ Then("Visualizo a tela de produtos", () => {
 
 When("Clico pra realizar logout", () => {
     loginPage.logout();
-})
+});
 
 Then("Visualizo a tela login", () => {
     loginPage.successLoginPage();
