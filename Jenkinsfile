@@ -3,10 +3,6 @@ pipeline {
 
     tools { nodejs 'Node16' }
 
-    parameters {
-        choice(name: 'BROWSER', choices: ['chrome', 'edge', 'firefox'], description: "Escolha o navegador para execução dos scripts")
-    }
-
     stages {
         stage('Bulding') {
             steps {
@@ -22,7 +18,7 @@ pipeline {
 
         stage('Run Cypress Tests') {
             steps {
-                bat "npx cypress run --browser ${BROWSER}"
+                bat "npx cypress run"
             }
         }
 
