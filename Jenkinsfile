@@ -6,18 +6,28 @@ pipeline {
     stages {
         stage('Install Dependencies') {
             steps {
+                bat "npm i"
+
+                /*
                 script {
-                    sh 'npn i'
+                    sh 'npm i'
                 }
+                */
+                
             }
         }
 
         stage('Run Cypress Tests') {
             steps {
+                bat "npx cypress run"
+
+                /*
                 script {
                     // Executa os testes no modo headless
                     sh 'npx cypress run'
                 }
+                */
+                
             }
         }
     }
