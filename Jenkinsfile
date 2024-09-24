@@ -3,32 +3,33 @@ pipeline {
 
     tools { nodejs 'Node16' }
 
+    parameters {
+        choice(name: 'BROWSER', choices: ['chrome', 'edge', 'firefox'], description: "Escolha o navegador para execução dos scripts")
+    }
+
+    options {
+        ansiColor('xterm')
+    }
+
     stages {
+        stage('Bulding') {
+            echo "Bulding the application"
+        }
+
         stage('Install Dependencies') {
             steps {
                 bat "npm i"
-
-                /*
-                script {
-                    sh 'npm i'
-                }
-                */
-                
             }
         }
 
         stage('Run Cypress Tests') {
             steps {
-                bat "npx cypress run"
-
-                /*
-                script {
-                    // Executa os testes no modo headless
-                    sh 'npx cypress run'
-                }
-                */
-                
+                bat "npx cypress run --browser ${BROWSER}"
             }
+        }
+
+        stage('Deploying') {
+            echo "Deploy the application"
         }
     }
 
