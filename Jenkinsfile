@@ -1,23 +1,34 @@
 pipeline {
     agent any
 
-    tools { nodejs 'Node16' }
-
     stages {
-        stage('Install dependencies') {
+        stage('Install Dependencies') {
             steps {
-                sh 'npm i'
+                script {
+                    sh 'npm install'
+                }
             }
         }
-        stage('Running production backtests') {
+
+        stage('Run Cypress Tests') {
             steps {
-                sh 'npm run prod:regress'
+                script {
+                    // Executa os testes no modo headless
+                    sh 'npx cypress run'
+                }
             }
         }
     }
+
     post {
         always {
-            junit 'results/*.xml'
+            // Publica resultados (se houver integração de relatórios)
+            archiveArtifacts artifacts: '**/cypress/screenshots/*', allowEmptyArchive: true
+            archiveArtifacts artifacts: '**/cypress/videos/*', allowEmptyArchive: true
+        }
+        failure {
+            // Adiciona relatórios em caso de falha
+            echo 'Os testes falharam.'
         }
     }
 }
