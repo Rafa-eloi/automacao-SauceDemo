@@ -5,7 +5,11 @@ pipeline {
             args '-p 3000:3000' 
         }
     }
-    
+
+    environment {
+        CI = 'true'  // Cypress reconhece que está rodando em CI
+    }
+
     tools { nodejs 'Node16' }
 
     stages {
