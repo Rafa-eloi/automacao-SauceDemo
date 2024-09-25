@@ -1,10 +1,11 @@
 pipeline {
     agent {
         docker {
-            image 'cypress/base:12.16.1' 
+            image 'cypress/base:13.13.1' 
             args '-p 3000:3000' 
         }
-
+    }
+    
     tools { nodejs 'Node16' }
 
     stages {
