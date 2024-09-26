@@ -22,7 +22,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 796000000
+              "duration": 681000000
             }
           },
           {
@@ -32,97 +32,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 437000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "Preencho cooretamente a senha",
-            "result": {
-              "status": "passed",
-              "duration": 374000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "Clico em login",
-            "result": {
-              "status": "passed",
-              "duration": 1102000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Visualizo a tela de produtos",
-            "result": {
-              "status": "passed",
-              "duration": 14000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "Cliclo em adicionar produtos ao carrinho",
-            "result": {
-              "status": "passed",
-              "duration": 238000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 12,
-            "name": "Clico para ir para o carrinho",
-            "result": {
-              "status": "passed",
-              "duration": 353000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "Vizualizo os produtos no carrinho",
-            "result": {
-              "status": "passed",
-              "duration": 24000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "cart;remover-produto-do-carrinho",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Remover produto do carrinho",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Acesso a tela de login",
-            "result": {
-              "status": "passed",
-              "duration": 118000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "Preencho corretamente o usuário",
-            "result": {
-              "status": "passed",
-              "duration": 385000000
+              "duration": 395000000
             }
           },
           {
@@ -142,7 +52,97 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 86000000
+              "duration": 1136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Visualizo a tela de produtos",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Cliclo em adicionar produtos ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Clico para ir para o carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Vizualizo os produtos no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart;remover-produto-do-carrinho",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Remover produto do carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Acesso a tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Preencho corretamente o usuário",
+            "result": {
+              "status": "passed",
+              "duration": 400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Preencho cooretamente a senha",
+            "result": {
+              "status": "passed",
+              "duration": 360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Clico em login",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Cliclo em adicionar produtos ao carrinho",
             "result": {
               "status": "passed",
-              "duration": 156000000
+              "duration": 158000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "Clico para ir para o carrinho",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 89000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Clico para remover os produtos do carrinho",
             "result": {
               "status": "passed",
-              "duration": 178000000
+              "duration": 167000000
             }
           },
           {
