@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Home",
+    "line": 1,
+    "id": "home",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "home;visualizar-lista-de-produtos-após-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Visualizar lista de produtos após login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Acesso a tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Preencho corretamente o usuário",
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Preencho cooretamente a senha",
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Clico em login",
+            "result": {
+              "status": "passed",
+              "duration": 664000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Visualizo a tela de produtos",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Visualizo os produtos da home",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home;visualizar-itens-do-menu",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Visualizar itens do menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Acesso a tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Preencho corretamente o usuário",
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Preencho cooretamente a senha",
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Clico em login",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Visualizo a tela de produtos",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Cliclo no menu sandwich",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Visualizo todos os links",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
