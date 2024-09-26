@@ -22,7 +22,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 681000000
+              "duration": 743000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 395000000
+              "duration": 423000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Preencho cooretamente a senha",
             "result": {
               "status": "passed",
-              "duration": 359000000
+              "duration": 409000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 1136000000
+              "duration": 1153000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Visualizo a tela de produtos",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 15000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "Cliclo em adicionar produtos ao carrinho",
             "result": {
               "status": "passed",
-              "duration": 243000000
+              "duration": 227000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "Clico para ir para o carrinho",
             "result": {
               "status": "passed",
-              "duration": 351000000
+              "duration": 336000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Vizualizo os produtos no carrinho",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 30000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 400000000
+              "duration": 384000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Preencho cooretamente a senha",
             "result": {
               "status": "passed",
-              "duration": 360000000
+              "duration": 359000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 86000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Cliclo em adicionar produtos ao carrinho",
             "result": {
               "status": "passed",
-              "duration": 158000000
+              "duration": 167000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "Clico para ir para o carrinho",
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 86000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Clico para remover os produtos do carrinho",
             "result": {
               "status": "passed",
-              "duration": 167000000
+              "duration": 163000000
             }
           },
           {

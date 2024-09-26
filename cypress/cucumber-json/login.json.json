@@ -22,7 +22,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 237000000
+              "duration": 250000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 404000000
+              "duration": 445000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 517000000
+              "duration": 538000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Visualizo a tela de produtos",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 6000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 84000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 381000000
+              "duration": 399000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Preencho cooretamente a senha",
             "result": {
               "status": "passed",
-              "duration": 363000000
+              "duration": 358000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 114000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Clico pra realizar logout",
             "result": {
               "status": "passed",
-              "duration": 688000000
+              "duration": 1727000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Visualizo a tela login",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 12000000
             }
           }
         ]
@@ -162,7 +162,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 79000000
+              "duration": 98000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "Preencho o campo com um usuário bloqueado",
             "result": {
               "status": "passed",
-              "duration": 396000000
+              "duration": 397000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Preencho cooretamente a senha",
             "result": {
               "status": "passed",
-              "duration": 377000000
+              "duration": 375000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 77000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "Visualizo a mensagem de erro",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 6000000
             }
           }
         ]
@@ -232,7 +232,7 @@
             "name": "Preencho o campo com um usuário inexistente",
             "result": {
               "status": "passed",
-              "duration": 451000000
+              "duration": 459000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "Preencho o campo com um senha inexistente",
             "result": {
               "status": "passed",
-              "duration": 502000000
+              "duration": 499000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 83000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "Visualizo a mensagem de erro",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 5000000
             }
           }
         ]
@@ -282,7 +282,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 78000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "Preencho cooretamente a senha",
             "result": {
               "status": "passed",
-              "duration": 373000000
+              "duration": 363000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 83000000
+              "duration": 103000000
             }
           },
           {
@@ -312,7 +312,7 @@
             "name": "Visualizo a mensagem de Username is required",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 28000000
             }
           }
         ]
@@ -342,7 +342,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 379000000
+              "duration": 377000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 76000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "Visualizo a mensagem de Password is required",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 9000000
             }
           }
         ]
