@@ -18,9 +18,16 @@ pipeline {
 
         stage('Run Cypress Tests') {
             steps {
-                bat "npx cypress run"
+                bat "npm run cypress:run"
             }
         }
+
+        stage('Reports') {
+            steps {
+                bat "node cucumber-html-report.js"
+            }
+        }
+
 
         stage('Deploying') {
             steps {
