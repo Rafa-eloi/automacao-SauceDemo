@@ -1,14 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'cypress/base:16.13.1' 
-            args '-p 3000:3000' 
-        }
-    }
-
-    environment {
-        CI = 'true'  // Cypress reconhece que está rodando em CI
-    }
+    agent any
 
     tools { nodejs 'Node16' }
 
@@ -21,14 +12,13 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh "npm i"
-                sh "npm run cy:verify"
+                bat "npm i"
             }
         }
 
         stage('Run Cypress Tests') {
             steps {
-                sh "npm run ci:cy-run"
+                bat "npx cypress run"
             }
         }
 
