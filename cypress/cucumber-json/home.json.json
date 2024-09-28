@@ -22,7 +22,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 696000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 404000000
+              "duration": 469000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Preencho cooretamente a senha",
             "result": {
               "status": "passed",
-              "duration": 392000000
+              "duration": 381000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 664000000
+              "duration": 884000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Visualizo a tela de produtos",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "Visualizo os produtos da home",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           }
         ]
@@ -92,7 +92,7 @@
             "name": "Acesso a tela de login",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 79000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Preencho corretamente o usuário",
             "result": {
               "status": "passed",
-              "duration": 383000000
+              "duration": 380000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Preencho cooretamente a senha",
             "result": {
               "status": "passed",
-              "duration": 382000000
+              "duration": 377000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "Clico em login",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 95000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Visualizo a tela de produtos",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 4000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Cliclo no menu sandwich",
             "result": {
               "status": "passed",
-              "duration": 76000000
+              "duration": 89000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "Visualizo todos os links",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 164000000
             }
           }
         ]
