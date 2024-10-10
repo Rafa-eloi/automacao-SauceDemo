@@ -28,12 +28,7 @@ jobs:
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v6
-      - uses: actions/upload-artifact@v4
-        with:
-          name: cypress-videos
-          path: cypress/videos
-          if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`
+        uses: cypress-io/github-action@v4
       - name: Generate Allure Report
         uses: simple-elf/allure-report-action@master
         if: always()
