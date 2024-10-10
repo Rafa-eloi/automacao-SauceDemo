@@ -28,7 +28,7 @@ jobs:
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v4
+        uses: cypress-io/github-action@v6
       - name: Generate Allure Report
         uses: simple-elf/allure-report-action@master
         if: always()
