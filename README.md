@@ -1,5 +1,5 @@
 # Automacao SauceDemo
-Projeto de automação utilizando o cypress para seleção em QA.
+Projeto de automação utilizando o cypress.
 Site utilizado para execução dos testes: https://www.saucedemo.com/v1/
 Neste projeto foram construídos 14 cenários, sendo eles divididos em 4 funcionalidades do sistema.
 - Login: 6 cenários;
